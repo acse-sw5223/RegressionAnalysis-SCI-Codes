@@ -6,13 +6,19 @@ Open access code resources for the paper: [Regression model and method settings 
 If you want to use our resources, please cite our work:
 
 ```python
-@article{wa2023regression,
-  title={Regression model and method settings for air pollution status analysis based on air quality data in Beijing (2017--2021)},
-  author={Wa, Shiyun and Lu, Xinai and Wang, Minjuan},
-  journal={International Journal of Data Science and Analytics},
-  pages={1--21},
-  year={2023},
-  publisher={Springer}
+@Article{Wa2023,
+author={Wa, Shiyun
+and Lu, Xinai
+and Wang, Minjuan},
+title={Regression model and method settings for air pollution status analysis based on air quality data in Beijing (2017--2021)},
+journal={International Journal of Data Science and Analytics},
+year={2023},
+month={Jul},
+day={03},
+abstract={Regression analysis is an essential tool for modeling and analyzing data, which can be utilized in various areas for predictive analysis and discovering relationships between variables. However, guidelines such as the model's features, dataset selection, and method settings for using regression models to explore air pollution status in a region are not detailed. This paper applied regression analysis based on air quality data in Beijing from 2017 to 2021, to study the characteristics of regression models, provide research guidance, and update the air pollution research data based on the dataset. This paper drew the latest conclusions: (1) PM2.5 and NO2 are positively correlated on the test set from these 5 years, yielding a correlation coefficient of 0.7036 by using linear regression. The respective coefficient of determination on small-scale test sets for 2017, 2019, and 2021 is much lower than those derived from a 5-year dataset. Single-year dataset is not befitting for linear regression analysis. (2) The polynomial regression's coefficient of determination on the training set is higher than that of the linear regression model, which is more proper for regression analysis on a 1-year dataset. (3) PM2.5 and NO2 concentrations are strongly positively correlated with whether the air is polluted or not, and the correlation coefficient on the test set from these 5 years is 0.9697. The accuracy of logistic regression in classifying air pollution status based on these two pollutants' concentrations reaches 0.9430. Besides, this paper proposed some appropriate parameter settings for the logistic regression method provided by Python third-party library sklearn. Specifically, L2-type regularization is better optimized for the 2017--2021 dataset. L1-type regularization works better when applying a 1-year dataset. A boost in the inverse of the regularization strength to 1.8 will optimize the regularization.},
+issn={2364-4168},
+doi={10.1007/s41060-023-00415-7},
+url={https://doi.org/10.1007/s41060-023-00415-7}
 }
 ```
 
